@@ -2,7 +2,7 @@
 
 ## 1. Preparation
 
-## Scenario
+### Scenario
 
 An employee named John Doe, working in a sensitive department, recently got put on a performance improvement plan (PIP). After displaying erratic behavior, management has raised concerns that John may be planning to steal proprietary information and then quit the company.
 
