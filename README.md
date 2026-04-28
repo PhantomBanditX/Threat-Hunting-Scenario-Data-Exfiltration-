@@ -4,16 +4,16 @@
 
 ### Scenario
 
-An employee named John Doe, working in a sensitive department, recently got put on a performance improvement plan (PIP). After displaying erratic behavior, management has raised concerns that John may be planning to steal proprietary information and then quit the company.
+An employee named **John Doe**, working in a sensitive department, recently got put on a performance improvement plan (PIP). After displaying erratic behavior, management has raised concerns that John may be planning to steal proprietary information and then quit the company.
 
 **Description:**
 
-- John has administrator privileges on his device
-- He is not limited on which applications he uses
+- **John** has **administrator privileges** on his device.
+- He is not limited on which applications he uses.
 
 **Task:**
 
-Investigate John's activities on his corporate device `cyberclaw-vm`
+Investigate John's activities on his corporate device **`cyberclaw-vm`**.
 
 **Goal:**
 
