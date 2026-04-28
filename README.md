@@ -28,7 +28,7 @@ Identify if John may attempt compression or exfiltration of sensitive data to a 
 
 ---
 
-#### 2. Data Collection
+## 2. Data Collection
 
 **Tables used:**
 
@@ -38,7 +38,7 @@ Identify if John may attempt compression or exfiltration of sensitive data to a 
 
 ---
 
-#### 3. Data Analysis
+## 3. Data Analysis
 
 **Query 1: File Inspection**
 
