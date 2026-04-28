@@ -44,8 +44,12 @@ Identify if John may attempt compression or exfiltration of sensitive data to a 
 
 Searched MDE's DeviceFileEvents for .zip file activity.
 
-```kusto
+```kql
 DeviceFileEvents
 | where DeviceName == "cyberclaw-vm"
 | where FileName endswith ".zip"
 | order by Timestamp desc
+```
+
+<img width="1919" height="872" alt="Image" src="https://github.com/user-attachments/assets/33a01a2e-d2fe-4632-980d-334f52288ccf" />
+
