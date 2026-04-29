@@ -33,7 +33,7 @@ An employee named **John Doe**, working in a sensitive department, recently got 
 
 ## **File Inspection**
 
-Searched MDE's DeviceFileEvents for `.zip` file activity.
+I searched MDE's DeviceFileEvents for `.zip` file activity.
 
 ```kql
 DeviceFileEvents
