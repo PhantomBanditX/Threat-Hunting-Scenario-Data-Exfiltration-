@@ -45,7 +45,7 @@ DeviceFileEvents
 <img alt="Image" src="https://github.com/user-attachments/assets/33a01a2e-d2fe-4632-980d-334f52288ccf" />
 <br><br>
 
-Finding: Results showed regular archiving patterns: files created and renamed inside a `backup` folder.
+Findings: Results showed regular archiving patterns: files created and renamed inside a `backup` folder.
 
 #### `Timestamp captured: 2026-04-24T14:41:55.3369801Z`
 
@@ -93,15 +93,15 @@ Findings: No outbound connections to external IP addresses, cloud storage domain
 
 ### **MITRE ATT&CK Mapping: Tactics, Techniques, and Procedures (TTPs)**
 
-- T1059.001 – Command and Scripting Interpreter: PowerShell
+- [T1059.001 – Command and Scripting Interpreter: PowerShell](https://attack.mitre.org/techniques/T1059/001/)
 
-- T1560.001 – Archive Collected Data: Archive via Utility
+- [T1560.001 – Archive Collected Data: Archive via Utility](https://attack.mitre.org/techniques/T1560/001/)
 
-- T1105 – Ingress Tool Transfer
+- [T1105 – Ingress Tool Transfer](https://attack.mitre.org/techniques/T1105/)
 
-- T1074 – Data Staged
+- [T1074 – Data Staged](https://attack.mitre.org/techniques/T1074/)
 
-- T1027 – Obfuscated/Hidden Files and Information
+- [T1564.001 — Hide Files and Directories](https://attack.mitre.org/techniques/T1564/001/)
 ---
 
 ## 3. Response
@@ -127,3 +127,7 @@ Findings:
 ---
 ## 🧾Summary                   
 The user `cyberclaw-vm` installed `7-Zip` via PowerShell, compressed employee data into a ZIP archive, and moved it to a `backup` folder in ProgramData. No data exfiltration was detected. The behavior is consistent with data staging, so findings were escalated to management and monitoring remains active.
+
+---
+## References
+- [NIST SP 800-61r3](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)
