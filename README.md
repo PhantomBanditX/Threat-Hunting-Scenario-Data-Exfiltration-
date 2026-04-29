@@ -31,7 +31,7 @@ An employee named **John Doe**, working in a sensitive department, recently got 
 
 ## 2. Detection & Analysis
 
-## **File Inspection**
+### **File Inspection**
 
 I searched MDE's DeviceFileEvents for `.zip` file activity.
 
@@ -51,7 +51,7 @@ Findings: Results showed regular archiving patterns: files created and renamed i
 
 ---
 
-## **Process Activity Analysis**
+### **Process Activity Analysis**
 
 Using the timestamp captured from the `.zip` file creation event, I queried the `DeviceProcessEvents` table for any process activity within a two-minute window to identify what may have created the archive.
 
@@ -72,7 +72,7 @@ Findings: A PowerShell script quietly installed `7zip` and then used it to compr
 
 ---
 
-## **Network Exfiltration Path Review**
+### **Network Exfiltration Path Review**
 
 I analyzed network events within five minutes before and after the identified incident to check for any outbound connections that would indicate data exfiltration.
 
