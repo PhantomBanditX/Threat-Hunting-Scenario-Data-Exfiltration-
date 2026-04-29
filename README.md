@@ -99,7 +99,7 @@ Findings: No outbound connections to external IP addresses, cloud storage domain
 
 - [T1105 – Ingress Tool Transfer](https://attack.mitre.org/techniques/T1105/)
 
-- [T1074 – Data Staged](https://attack.mitre.org/techniques/T1074/)
+- [T1074.001 – Data Staged: Local Data Staging](https://attack.mitre.org/techniques/T1074/001/)
 
 - [T1564.001 — Hide Files and Directories](https://attack.mitre.org/techniques/T1564/001/)
 ---
