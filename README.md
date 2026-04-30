@@ -1,4 +1,4 @@
-# Threat Hunting: Internal Data Exfiltration Detection
+# Internal Data Exfiltration Detection
 
 ## 1. Preparation
 
